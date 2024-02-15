@@ -34,7 +34,7 @@ function handlePageRefresh() {
 // =========================================Local Storage for Page Refresh Event ======================================
 
 $(function () {
-    $("#tableData").sortable({      //used to make the row draggable
+    $("#tableData tbody").sortable({      //used to make the row draggable
         items: 'tr',                //used to make the row draggable
         update: function() {                //======================used to make the dragged row as it si after refresh also==========
             all_data = [];
